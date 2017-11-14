@@ -1,2 +1,75 @@
 /* CSS Document */
+/* Import statements */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
+/* Styling */
+body {
+	background-color: #171D28;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: hsla(157,38%,48%,1.00);
+}
+.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 27px;
+}
+/*HeroImg Styling*/
+.mobile-header {
+	padding: 30px;
+}
+.start-panels {
+	margin-top: 110px;
+}
+@media only screen and (min-width : 320px) and (max-width:991px){
+	.heroimg {
+		background-image: url(../images/heroimg-mobile.png);
+		background-size: cover;
+    	background-repeat: no-repeat;
+		width: 100vw;
+		margin-top: -20px;
+	}
+    }
+@media only screen and (min-width : 992px){
+	.heroimg {
+	margin-top: -80px;
+	}
+    }
+
+
+/* FOOTER CSS */
+.site-footer {
+	background-color: black;
+}
+
+@media only screen 
+and (min-width : 1224px) {
+	.site-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 120px;
+	width: 100%;
+	color: #fff;
+	background-color: hsla(0,0%,0%,0.28);
+	padding: 0.01em 16px;
+	}
+}
+
+.social-links{
+	display: flex;
+	justify-content: space-around;
+}
+.social-links i {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.social-links a {
+	color: white;
+}
+.social-links a:hover {
+	text-shadow: 1px 1px 10px white;
+}
+.footer-rights{
+	margin-top: 5%;
+	color: darkgray;
+}

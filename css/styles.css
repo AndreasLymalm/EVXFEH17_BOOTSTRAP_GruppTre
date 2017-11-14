@@ -69,7 +69,6 @@ body {
 	font-family: 'Pacifico', cursive;
 }
 
-
 .social-links{
 	display: flex;
 	justify-content: space-around;
@@ -88,7 +87,27 @@ body {
 	margin-top: 5%;
 	color: darkgray;
 }
-
+/* Gallery Page Styling */
+.gallery-row-two, .gallery-row-three {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.test-gallery>img {
+	opacity: 0.4;
+}
+.test-gallery:hover>img {
+	opacity: 1;
+	box-shadow: 1px 1px 10px 2px white;
+}
+.gallery-header {
+	text-shadow: 1px 1px 4px cyan;
+}
+.collapse-photo-header {
+	font-family:'Pacifico', cursive;
+	color: white;
+	text-shadow: 1px 1px 4px cyan;
+	text-decoration: none;
+}
 /* Makes panels on "all tutoring" page have space between image and text */
 .services img {
     padding-bottom: 1em;

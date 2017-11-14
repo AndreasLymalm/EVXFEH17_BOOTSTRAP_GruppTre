@@ -1,2 +1,22 @@
 /* CSS Document */
 
+/* Makes panels on "all tutoring" page have space between image and text */
+.services img {
+    padding-bottom: 1em;
+}
+
+/* Makes panels on "all tutoring" page the same height */
+@media screen and (min-width: 768px) {
+    .equal {
+        display: flex;
+        margin: 1em;
+    }
+    .equal .panel {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .equal .panel .panel-body {
+        flex: 1;
+    }
+}

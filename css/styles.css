@@ -32,13 +32,29 @@ body {
     }
 @media only screen and (min-width : 992px){
 	.heroimg {
+		display: grid;
+		grid-template-columns: 3fr auto 3fr;
+		grid-template-rows: 1fr 1fr auto;
 		background-image: url(../images/heroimg2.png);
 		background-size: cover;
     	background-repeat: no-repeat;
 		width: 100vw;
+		height: 700px;
 		margin-top: -20px;
 	}
     }
+.anchor-start {
+	grid-column: 2;
+	grid-row: 3;
+}
+.anchor-start .glyphicon-arrow-down {
+	color: lightgray;
+	font-size: 50px;
+	padding: 20px;
+}
+.anchor-start a:hover .glyphicon-arrow-down {
+	 color: white;
+}
 
 /* Large Panels Styling */
 .large-panels {

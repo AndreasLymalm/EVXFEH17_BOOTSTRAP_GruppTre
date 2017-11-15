@@ -128,3 +128,15 @@ body {
         flex: 1;
     }
 }
+
+/* Add good looking padding on services pages */
+.tab-pane {
+    padding-top: 1em;
+    margin-bottom: 1em;
+    outline: none;
+}
+
+.price {
+    color: grey;
+    padding-left: 1em;
+}

@@ -108,6 +108,27 @@ body {
 	text-shadow: 1px 1px 4px cyan;
 	text-decoration: none;
 }
+
+/* Styling for the about page*/
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+.center-pills h2{
+    font-family: 'Pacifico', cursive;
+	font-size: 45px;
+}
+.center-pills>li>a:hover{
+	background-color: hsla(0,0%,0%,0.00);
+}
+.center-pills>li>a:hover h2{
+	text-shadow: 1px 1px 30px white;
+}
+
+.meet-our-teachers {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
 /* Makes panels on "all tutoring" page have space between image and text */
 .services img {
     padding-bottom: 1em;

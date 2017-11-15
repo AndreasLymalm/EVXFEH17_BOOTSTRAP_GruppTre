@@ -29,17 +29,17 @@
       
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" ><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="#">Musicophone.com</a> </div>
+        <a class="navbar-brand" href="index.html">Musicophone.com</a> </div>
       
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="defaultNavbar1">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
           <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Services<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Service 1</a></li>
-              <li><a href="#">Service 2</a></li>
+              <li><a href="all_services.html">All Services</a></li>
+              <li><a href="service_song.html">Song</a></li>
               <li><a href="#">Service 3</a></li>
               <li role="separator" class="divider"></li>
               <li><a href="#">Service 4</a></li>
@@ -63,15 +63,20 @@
 <!-- End of header and navbar -->
 
 <!-- Start of Start-Page Content -->
-
+<!-- Start of the heroimg section-->
 <div class="heroimg">
-<img class="img-responsive hidden-xs hidden-sm" src="images/heroimg.png" alt="...">
+
 <h2 class="mobile-header text-center visible-xs visible-sm">We Make Music</h2>
+	<div class="anchor-start visible-lg">
+		<a href="#start-title">
+			<span class="glyphicon glyphicon-arrow-down"></span>
+		</a>
+	</div>
+	
 
 	<div class="container start-panels hidden-lg">
   <div class="row">
     <div class="col-xs-6">
-	
       <div class="panel panel-default">
         <div class="panel-heading">
           <div class="panel-title">New classes!</div>
@@ -115,17 +120,103 @@
         </div>
       </div>
     </div>
-	
   </div>
-	
 </div>
-
+<!-- End of heroimg section -->
+<div class="container-fluid">
+	<div class="row">
+	<h2 class="text-center" id="start-title">"Music is food for the soul"</h2>
+	</div>
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3">
+  <div id="carousel1" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel1" data-slide-to="1"></li>
+      <li data-target="#carousel1" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active"><img src="images/flute.jpeg" alt="First slide image" class="center-block">
+        <div class="carousel-caption">
+          <h3>First slide Heading</h3>
+          <p>First slide Caption</p>
+        </div>
+      </div>
+      <div class="item"><img src="images/flute.jpeg" alt="Second slide image" class="center-block">
+        <div class="carousel-caption">
+          <h3>Second slide Heading</h3>
+          <p>Second slide Caption</p>
+        </div>
+      </div>
+      <div class="item"><img src="images/flute.jpeg" alt="Third slide image" class="center-block">
+        <div class="carousel-caption">
+          <h3>Third slide Heading</h3>
+          <p>Third slide Caption</p>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></div>
+</div>
+	</div>
+	</div>
+<!-- Start of large panels -->
+<div class="large-panels visible-lg">
+	<div class="row">
+		<div class="col-lg-3 col-lg-offset-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title text-center">Become a student today!</div>
+          </div>
+          <div class="panel-body">
+			  <img  class="img-responsive" src="images/editing.jpg" alt="editing">
+			  <p> We give you all the tools you need to succeed. We have a great
+			  variety of instruments available for you to choose from.
+			  Learn to make music!</p>
+			</div>
+          <div class="panel-footer text-center">
+			  <button class="btn btn-primary">Become a student!</button>
+			</div>
+        </div>
+      </div>
+		
+	<div class="col-lg-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title text-center">Become a student today!</div>
+          </div>
+          <div class="panel-body">
+			  <img  class="img-responsive" src="images/editing.jpg" alt="editing">
+			  <p> We give you all the tools you need to succeed. We have a great
+			  variety of instruments available for you to choose from.
+			  Learn to make music!</p>
+			</div>
+          <div class="panel-footer text-center">
+			  <button class="btn btn-primary">Become a student!</button>
+			</div>
+        </div>
+      </div>
+	</div>
+	<div class="row">
+		<div class="col-lg-6 col-lg-offset-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">New classes!</div>
+        </div>
+        <div class="panel-body">
+          <p>This year we've expanded our classes with two brand new teachers
+            who will be focusing on new instruments.. <a href="#">Read more</a></p>
+        </div>
+      </div>
+	  </div>
+	</div>
+</div>
+<!-- End of large panels -->
 <!-- This is the site footer - Copy this part to the other sites -->
 <footer class="site-footer">
   <div class="container">
     <div class="row">
       <div class="main-footer-content col-md-4 col-md-offset-8">
-        <h3 class="text-center">
+        <h3 class="footer-text text-center">
         Keep up with us!
         </h3>
         <div class="social-links"> <a href="#"><i class="fa fa-facebook-official"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-instagram"></i></a> 
@@ -135,8 +226,8 @@
   </div>
 </footer>
 <!-- End of the footer -->
-	  
 <script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/smooth-scroll.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
 </html>

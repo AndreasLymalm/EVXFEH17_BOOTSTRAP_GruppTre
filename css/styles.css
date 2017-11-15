@@ -4,7 +4,8 @@
 
 /* Styling */
 body {
-	background-color: #171D28;
+	background:url(../images/bg_main.png) no-repeat center center fixed;
+	background-size: cover;
 }
 .navbar-default .navbar-nav>li>a:hover {
 	color: hsla(157,38%,48%,1.00);
@@ -31,28 +32,41 @@ body {
     }
 @media only screen and (min-width : 992px){
 	.heroimg {
-	margin-top: -80px;
+		display: grid;
+		grid-template-columns: 3fr auto 3fr;
+		grid-template-rows: 1fr 1fr auto;
+		background-image: url(../images/heroimg2.png);
+		background-size: cover;
+    	background-repeat: no-repeat;
+		width: 100vw;
+		height: 700px;
+		margin-top: -20px;
 	}
     }
+.anchor-start {
+	grid-column: 2;
+	grid-row: 3;
+}
+.anchor-start .glyphicon-arrow-down {
+	color: lightgray;
+	font-size: 50px;
+	padding: 20px;
+}
+.anchor-start a:hover .glyphicon-arrow-down {
+	 color: white;
+}
 
+/* Large Panels Styling */
+.large-panels {
+	margin-top: 20px;
+}
 
 /* FOOTER CSS */
 .site-footer {
-	background-color: black;
+	background-color: #3e5a7c;
 }
-
-@media only screen 
-and (min-width : 1224px) {
-	.site-footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	height: 120px;
-	width: 100%;
-	color: #fff;
-	background-color: hsla(0,0%,0%,0.28);
-	padding: 0.01em 16px;
-	}
+.footer-text {
+	font-family: 'Pacifico', cursive;
 }
 
 .social-links{
@@ -73,7 +87,27 @@ and (min-width : 1224px) {
 	margin-top: 5%;
 	color: darkgray;
 }
-
+/* Gallery Page Styling */
+.gallery-row-two, .gallery-row-three {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.test-gallery>img {
+	opacity: 0.4;
+}
+.test-gallery:hover>img {
+	opacity: 1;
+	box-shadow: 1px 1px 10px 2px white;
+}
+.gallery-header {
+	text-shadow: 1px 1px 4px cyan;
+}
+.collapse-photo-header {
+	font-family:'Pacifico', cursive;
+	color: white;
+	text-shadow: 1px 1px 4px cyan;
+	text-decoration: none;
+}
 /* Makes panels on "all tutoring" page have space between image and text */
 .services img {
     padding-bottom: 1em;

@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Site information -->
-    <title>Song - Tutoring | Musicophones</title>
-    <meta name="description" content="Learn how to sing!">
-    <meta name="keywords" content="music, song">
+    <title>Brass - Tutoring | Musicophones</title>
+    <meta name="description" content="Learn how to play a brass instrument!">
+    <meta name="keywords" content="music, brass">
     <meta name="author" content="Andreas Lymalm, Rickard Lundby, Max">
 
     <!-- Stylesheets -->
@@ -58,8 +58,8 @@
                                 </li>
                                 <li role="separator" class="divider"></li>
                                 <div class="dropdown-header">Specific tutoring</div>
-                                <li class="active">
-                                    <a href="#">Song</a>
+                                <li>
+                                    <a href="service_song.html">Song</a>
                                 </li>
                                 <li>
                                     <a href="service_piano.html">Piano</a>
@@ -67,8 +67,8 @@
                                 <li>
                                     <a href="service_string.html">String</a>
                                 </li>
-                                <li>
-                                    <a href="service_brass.html">Brass</a>
+                                <li class="active">
+                                    <a href="#">Brass</a>
                                 </li>
                                 <li>
                                     <a href="service_percussion.html">Percussion</a>
@@ -111,7 +111,7 @@
                 <a href="all_services.html">Tutoring</a>
             </li>
             <li class="active">
-                Song
+                Brass
             </li>
         </ol>
     </div>
@@ -142,11 +142,11 @@
         <div id="info" class="tab-pane fade in active">
             <div class="row">
                 <div class="col-xs-12 col-sm-5">
-                    <img src="images/service_song.jpg" alt="Song" class="img-responsive">
+                    <img src="images/service_brass.jpg" alt="Brass" class="img-responsive">
                 </div>
                 <div class="col-xs-12 col-sm-7">
-                    <p class="lead">Do you hum melodies whitout being aware of it? Do you sing a solo part in the shower? Maybe it's time
-                        you develop your voice!
+                    <p class="lead">Do you love the high pitched sound of the trumpet, or the jazzy mood of the saxophone, or maybe the smooth
+                        sound of the trombone? Come join the brass family!
                     </p>
                 </div>
             </div>
@@ -160,11 +160,20 @@
                 </div>
                 <div class="col-xs-12 col-lg-6">
                     <h3>What we offer</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quo ipsam, possimus ducimus neque deleniti,
-                        saepe officiis corrupti ipsa sapiente aut cupiditate adipisci enim quidem odit incidunt nihil, animi
-                        eum dolore est voluptates! Fuga omnis doloribus cum repudiandae ut sequi, nesciunt ex asperiores
-                        aperiam pariatur iusto officia, nemo blanditiis? Omnis aspernatur qui sequi rerum delectus, minima
-                        eligendi? Magnam quia earum a amet dolores nemo nihil, harum accusamus pariatur distinctio dolorum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatum error? Praesentium modi
+                        optio, quam blanditiis iure ducimus necessitatibus natus doloremque harum qui rerum labore, obcaecati
+                        culpa voluptatibus alias veniam.</p>
+                    <h4>Saxophone</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos quod enim iure. Suscipit fugit,
+                        reprehenderit debitis reiciendis esse magnam. Possimus.</p>
+                    <h4>Trumpet</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quo quasi voluptatibus in nesciunt
+                        dicta labore animi repudiandae officia earum.</p>
+                    <h4>Trombone</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis minus ab esse eos maiores nemo mollitia
+                        fugit officia nihil corrupti?</p>
+                    <h4>Tuba</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro molestias rerum officia. Aut, animi temporibus!</p>
                 </div>
             </div>
         </div>
@@ -197,6 +206,15 @@
                         exercitationem repellendus totam doloremque, non error quam sint atque quos molestiae placeat repudiandae
                         amet tempore cum voluptatibus nisi assumenda unde. Voluptate necessitatibus in similique sed totam?</p>
                 </div>
+                <div class="col-xs-12">
+                    <h3>Playing in the orchestra
+                        <span class="price">$19</span>
+                    </h3>
+                    <p>You can also join the orchestra. It's a great addition to the solo lessons and involves a lot of fun,
+                        and the joy of playing together with others, co-creating music. We have two orchestras, one for beginners
+                        and intermediate learners, and one more advanced for those who have played a while and knows the
+                        principles that needs to be followed in an orchestra.</p>
+                </div>
             </div>
         </div>
 
@@ -219,6 +237,15 @@
                             <input type="tel" class="form-control" id="telephone" placeholder="Enter number without leading 0">
                         </div>
                     </div>
+                    <div class="form-group">
+                        <label for="lessonType">Which instrument are you interested in? *</label>
+                        <select class="form-control" id="lessonType">
+                            <option>Saxophone</option>
+                            <option>Trumpet</option>
+                            <option>Trombone</option>
+                            <option>Tuba</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
@@ -228,6 +255,10 @@
                             <option>Intermediate Lessons - $59</option>
                             <option>Advanced Lessons - $79</option>
                         </select>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="">I aslo want to join the orchestra - $19</label>
                     </div>
                     <div class="form-group">
                         <label for="description">Special information</label>

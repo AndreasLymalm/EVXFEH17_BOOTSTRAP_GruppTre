@@ -6,6 +6,7 @@
 body {
     background: url(../images/bg_main_v2.png) no-repeat center center fixed;
     background-size: cover;
+    overflow-x: hidden;
 }
 .navbar-default .navbar-nav > li > a:hover {
     color: hsla(157, 38%, 48%, 1);
@@ -38,7 +39,7 @@ body {
         background-image: url(../images/heroimg2.png);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 100vw;
+        width: 100%;
         height: 700px;
         margin-top: -20px;
     }
@@ -51,9 +52,15 @@ body {
     color: lightgray;
     font-size: 50px;
     padding: 20px;
+    margin-bottom: 1em;
 }
 .anchor-start a:hover .glyphicon-arrow-down {
     color: white;
+}
+
+/* Make outline disappear on first page after scrolling */
+#start-title {
+    outline: none;
 }
 
 /* Large Panels Styling */

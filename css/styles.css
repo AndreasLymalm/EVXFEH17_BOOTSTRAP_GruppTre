@@ -166,3 +166,29 @@ body {
 #info h4, #info h4 + p {
     padding-left: 1em;
 }
+
+/* Social links in blog footer */
+.blogpost .social-links {
+    justify-content: center;
+}
+.blogpost .social-links i {
+    padding-bottom: 0;
+    padding-left: 1em;
+}
+
+/* Blog comments */
+.post {
+    margin-top: 1em;
+}
+
+/* Comment panels spacing */
+.write-comment, .read-comments {
+    padding-top: 0;
+    padding-bottom: 1em;
+    margin: 0;
+}
+
+/* Comment panels heading */
+.write-comment .panel-heading, .read-comments .panel-heading {
+    cursor: pointer;
+}
